@@ -4,7 +4,7 @@ const Message = require("./modal/messages");
 const socket = (server) => {
   let io = Server(server, {
     cors: {
-      origin: " https://mspotifydummy.netlify.app",
+      origin: "https://spotify-clone-orpin-eta.vercel.app",
       credentials: true,
     },
   });

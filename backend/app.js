@@ -20,7 +20,7 @@ app.use(
 
 app.use(
   cors({
-    origin: "https://mspotifydummy.netlify.app",
+    origin: "https://spotify-clone-orpin-eta.vercel.app",
     credentials: true,
   })
 );
