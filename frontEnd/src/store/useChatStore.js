@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { io } from "socket.io-client";
 
-const baseURL = "https://spotify-clone-jm40.onrender.com";
+const baseURL = "https://spotify-clone-5pa4.vercel.app";
 const socket = io(baseURL, {
   withCredentials: true,
 });
